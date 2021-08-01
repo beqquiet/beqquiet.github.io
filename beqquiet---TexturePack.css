@@ -363,13 +363,26 @@
     height: 190px;
   }
 
+  .u-section-2 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   .u-section-2 .u-image-4 {
     height: 190px;
     width: 320px;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-container-layout-5 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .u-section-2 .u-image-5 {
     height: 190px;
     width: 320px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
