@@ -1,4 +1,10 @@
-RewriteEngine on 
-RewriteCond %{beqquiet---Strona-Główna} !-d
-RewriteCond %{beqquiet---TexturePack}.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule main-page index.html
+RewriteRule strona-glowna beqquiet---Strona-Główna.html
+RewriteRule txt beqquiet---TexturePack.html
