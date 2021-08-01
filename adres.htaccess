@@ -6,5 +6,5 @@ Deny from all
  
 RewriteEngine on
 RewriteRule index index.html
-RewriteRule mainpage beqquiet---Strona-Główna
-RewriteRule txt beqquiet---TexturePack
+RewriteRule mainpage beqquiet---Strona-Główna.html
+RewriteRule txt beqquiet---TexturePack.html
